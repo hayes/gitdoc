@@ -5,7 +5,7 @@ var fs = require('fs')
 
 http.createServer(function(req, res) {
   var url = req.url.split('?')[0]
-  if(url === '/index.js') {
+  if(url === '/bundle.js') {
     var b = browserify({debug: true})
     b.add('./index.js')
     return b.bundle().pipe(res)
