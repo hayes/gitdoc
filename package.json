@@ -1,0 +1,24 @@
+{
+  "name": "gitdoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "altr": "^0.4.0-alpha",
+    "beefy": "^2.1.1",
+    "brfs": "^1.2.0",
+    "browserify": "^7.0.0",
+    "concat-stream": "^1.4.7",
+    "dom-delegate": "^2.0.3",
+    "hapi": "^7.5.2",
+    "through": "^2.3.6",
+    "watchify": "^2.1.1",
+    "hyperquest": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Hayes",
+  "license": "MIT"
+}
