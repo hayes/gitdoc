@@ -96,7 +96,7 @@ altr.addFilter('fileLink', function(change) {
   return function(ref, path) {
     var state = qs.parse(url.splice(1).join('?'))
     state.ref = ref
-    change('/' + path + '?' + qs.stringify(state))
+    change('./' + path + '?' + qs.stringify(state))
   }
 })
 

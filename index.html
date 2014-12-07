@@ -21,7 +21,7 @@
       <li><pre>{{error.stack}}</pre></li>
     </ol>
   </div>
-  <script src="/bundle.js"></script>
+  <script src="./bundle.js"></script>
   <script type="text/html" name="dir">
     <a altr-if="item.type !== 'dir'" href="{{fileLink(ref, item.path)}}">{{item.name}}</a>
     <span altr-if="item.type === 'dir'" href="{{fileLink(ref, item.path)}}">{{item.name}}</span>
