@@ -8,7 +8,7 @@ var url = window.location.toString().split('?')
 var state = qs.parse(url.splice(1).join('?'))
 state.errors = []
 state.ref = state.ref || 'master'
-state.path = window.location.pathname
+state.path = window.location.toString().split(document.getElementsByTagName('base')[0].href)[0].split('?')[0]
 if(!state.path || state.path === '/') {
   state.path = '/README.md'
 }
